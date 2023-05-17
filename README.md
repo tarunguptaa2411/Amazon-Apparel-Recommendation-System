@@ -4,9 +4,13 @@ As you can see the system is quite accurately giving us the product recommendati
 In this notebook we learned,
 
 Basic data statistics.
-How to build an easy recommendation system using BOW and TF-IDF.
-Visualized the results with heatmaps and images from json files.
-Used cosine similarity and pariwise distances as metrics to evaluate product similarity.
-Due to time constraints and an easy to use application, I used only around 17k data points, if you have time to spare you can get even better results by not dropping the null values. On the other hand, removing duplicates was quite important as in the last fewer words the only thing irrelavant was the size of the apparel, it is pretty obvious the customer doesn't want to see the exact same product with only a change in the size, hence removing it was a must.
 
-Finally, you can also try using weighted word2vec models from gensim to make a new feature matrix which will pay attention to the important part in the titles.
+How to build an easy recommendation system using BOW and TF-IDF.
+
+Visualized the results with heatmaps and images from json files.
+
+Used cosine similarity and pairwise distances as metrics to evaluate product similarity.
+
+Due to time constraints and an easy to use application, I used only around 16k data points, if you have time to spare you can get even better results by not dropping the null values. On the other hand, removing duplicates was quite important as in the last fewer words the only thing irrelavant was the size of the apparel, it is pretty obvious the customer doesn't want to see the exact same product with only a change in the size, hence removing it was a must.
+
+
